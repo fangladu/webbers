@@ -1,48 +1,73 @@
 <!DOCTYPE html>
+<!--
+Andrés Manglano Cañizares NIA:100303534
+Fayán Leonardo Pardo Ladino NIA:100303560
+-->
 <html>
 <head>
-<title> Yet Another </title>
-<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="style/style.css">
-<link rel="shortcut icon" type="image/png" href="images/logo/favicon.png">
-<meta charset="utf-8">
-</head>
-<body>
-<div id="fellaini"> 
-	
-		<a href="webber.html">
-			<img id="logo" src="images/logo/logo.png" alt="Image can not be processed"/>
-		</a>
-		
-		 <h1 id="heading">Yet Another</h1>
-		
-		 <button id="nigga" type="button">
-			<script>
-				document.getElementById("nigga").onclick =  function() {myFunction()};
-				function myFunction() {
-					alert("YOU NEED TO LOGIN");
-				}
-			</script>
-		 	Log in!
-		 </button>
-		 
-		 <a id="lmayas" href="https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default">
-		 	Sign up!
-		 </a>
+	<title> Yet another </title>
+	<meta charset="utf-8"/>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="shortcut icon" type="image/png" href="images/logo/favicon.png">
 
-</div>
-<div id="menu">
-	
-</div>
-<div id="row1">
-</div>
-<div
-  class="fb-like"
-  data-send="true"
-  data-width="450"
-  data-show-faces="true">
-</div>
+	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" >
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+	<script src="script/script.js"></script>
+</head>
+
+<body>
+
+	<div id="mcwrap">
+
+		<div id="fellaini"> 
+			
+			<h1 id="heading">Yet another</h1>
+
+			<a id="ref" href="jengamonjas.html">
+				<img id="logo" src="images/logo/logo.png" alt="image can not be processed">
+			</a>
+		</div>
+
+		<h1 id="bigmac"> Log in to Facebook: </h1>
+
+		<div id="diver">
+			<form id="former" action="success.html"> 					
+					
+				<label id="email" ><strong>Enter your email:</strong>
+					<input type="email" id="inputemail"  class="imput"placeholder="username@domain.ext">
+				</label>
+				<div class="noti" id="notemail"> You need to enter your email</div>
+					<br>
+					<br>
+									
+				<label id="password" ><strong>Enter your Password:</strong>
+					<input type="password" id="inputpassword" class="imput" placeholder="********" title="Your password must have 8 characters as letters [a-z] and digits [0-9]"> 
+				</label>
+				<div class="noti" id="notpassword"> You need to enter a password</div>
+					<div class="noti" id="notpasswordnum"> Your password must contain a number</div>
+					<div class="noti" id="notpasswordlength"> Your password must have 8 characters</div>
+					<br>
+					<br>
+				
+				<input  id="submitbutton" type="submit" value="Proceed">
+				<br>	
+
+
+			</form>
+			
+		</div>
+		
+		
+		<div id="pushdownautomata"></div>
+
+	</div>
+
+	<div id="footer">
+
+	</div>
 
 </body>
 </html>

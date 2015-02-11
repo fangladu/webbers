@@ -1,359 +1,198 @@
-
-/*
-Andrés Manglano Cañizares NIA:100303534
-Fayán Leonardo Pardo Ladino NIA:100303560
-*/
-
-#yin{
-	-webkit-animation: services 5s; /* Chrome, Safari, Opera */
-    animation: services 5s;
-    position: relative;
-	margin-top:100px;
-	margin-left:100px;
-	margin-right:100px;
-	float:left;
-	max-width:200px;
-	max-height:200px;
-	width:auto;
-	height:auto;
-}
-
-#yan{
-	-webkit-animation: services 5s; /* Chrome, Safari, Opera */
-    animation: services 5s;
-    position: relative;
-	margin-top:100px;
-	margin-left:auto;
-	margin-right:auto;
-	float:left;
-	max-width:200px;
-	max-height:200px; 
-	width:auto;
-	height:auto;
-}
-
-#yonesnou{
-	-webkit-animation: services 5s; /* Chrome, Safari, Opera */
-    animation: services 5s;
-    position: relative;
-	margin-top:100px;
-	margin-left:100px;
-	margin-right:100px;
-	float:left;
-	max-width:200px;
-	max-height:200px;
-	width:auto;
-	height:auto;
-}
-#service1{
-position: absolute;
-margin-top: 315px;
-margin-left: 120px;
--webkit-animation: services 5s; /* Chrome, Safari, Opera */
-    animation: services 5s;
-}
-#service2{
-position: absolute;
-margin-top: 315px;
-margin-left: 450px;
--webkit-animation: services 5s; /* Chrome, Safari, Opera */
-    animation: services 5s;
-}
-#service3{
-position: absolute;
-margin-top: 315px;
-margin-left: 670px;
--webkit-animation: services 5s; /* Chrome, Safari, Opera */
-    animation: services 5s;
-}
-#slogan1{
-position: absolute;
-margin-top: 415px;
-margin-left: 125px;
--webkit-animation: services 5s; /* Chrome, Safari, Opera */
-    animation: services 5s;
-}
-#slogan2{
-position: absolute;
-margin-top: 415px;
-margin-left: 400px;
--webkit-animation: services 5s; /* Chrome, Safari, Opera */
-    animation: services 5s;
-}
-#slogan3{
-position: absolute;
-margin-top: 415px;
-margin-left: 670px;
--webkit-animation: services 5s; /* Chrome, Safari, Opera */
-    animation: services 5s;
-}
-#quicky{
-position:absolute;
-margin-top:20px;
-margin-left:400px;
-}
-#query{ 
-position:absolute;
-margin-top:150px;
-margin-left:180px;
-
-}
-#query2{
-position:absolute;
-margin-top:150px;
-margin-left:550px;
-
-}
-#search{
-position:absolute;
-margin-top:150px;
-margin-left:830px;
-}
-/* Chrome, Safari, Opera */
-@-webkit-keyframes services {
-	from{background:none; top:200px; opacity:0;}
-    to  {background:none; top:0px; opacity:1;}
-}
-
-/* Standard syntax */
-@keyframes services {
-	from{background:none; top:200px; opacity:0;}
-    to  {background:none; top:0px; opacity:1;}
-} 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes texty {
-	from{background:none; top:200px; opacity:0;}
-    to  {background:none; top:0px; opacity:1;}
-}
-
-/* Standard syntax */
-@keyframes texty {
-	from{background:none; top:200px; opacity:0;}
-    to  {background:none; top:0px; opacity:1;}
-} 
-
-html{
+html, body{
 	height:100%;
+	margin: 0;
+  	padding: 0;
+  	min-width: 1024px;
 }
+
+/*------Body of the html document------*/
 body{
-	min-width: 1080px;
-	margin-top:0;
-	margin:0;
-	padding:0;
-	height:100%;
-
+	background-color:#dcdcdc;
+	font-family: 'Ubuntu', sans-serif;
 }
 
+/*------Div that wraps everything in the body------*/
+#mcwrap{
+	min-height: 100%;
+	margin-bottom: -40px;
+	height: auto;
+	overflow: hidden;
+	display:flex;
+	flex-direction:column;
+}
+
+/*------The header of the webpage------*/
 #fellaini{
+	position:relative;
+	top:0px;
+	width:100%;
 	background-color:#333333;
-	height:65px;
+	overflow:hidden;
+	height:110px;
 }
 
-#heading{
-	margin:0;
+/*------Link from the logo which redirects to the page itself------*/
+#ref{
 	position:relative;
-	top:30px;
-	left:110px;
-	font-family: 'Ubuntu', cursive;
-	font-size:175%;
-	color:#dedede;
+	bottom:50px;
+
 }
 
-#nigga{
-	float:right;
-	position:relative;
-	bottom:20px;
-	width:auto;
-	right:8px;
-	font-size:80%;
-	font-family: 'Ubuntu', sans-serif;
-}
-
-#lmayas{
-	float:right;
-	position:relative;
-	bottom:45px;
-	left:55px;
-	font-size:100%;
-	font-family: 'Ubuntu', sans-serif;
-}
-
-/* not clicked link*/
-#lmayas:link {
-    color: #d64937;
-	text-decoration: none;
-	background-color: none;
-}
-
-/* visited link */
-#lmayas:visited {
-    color: #d64937;
-	text-decoration: underline;
-	background-color: none;
-}
-
-/* mouse over link */
-#lmayas:hover {
-    color: #d64937;
-	text-decoration: underline;
-	background-color: none;
-}
-
-/* selected link */
-#lmayas:active {
-    color: #dcdcdc;
-	background-color: none;
-}
-
+/*------Logo of the webpage------*/
 #logo{
-	position:absolute;
-	float:left;
 	width:110px;
 	height:110px;
 }
 
-#menu{
-	background-color:#d64937;
-	font-family: 'Ubuntu', sans-serif;
-	font-size:115%;
-	height:35px;
-    float:inherit;
-    padding-top:10px;
-    padding-left:30px;
-	text-align:left;
+/*------Text of the header------*/
+#heading{
+	margin:0;
+	position:relative;
+	top:30px;
+	left:130px;
+	font-family: 'Nosifer', cursive;
+	font-size:175%;
+	color:#dcdcdc;
+	width:600px;
 }
 
+/*------Div of the elements of the webpage------*/
 #elements{
 	position:relative;
 	left:83px;
-}
-.items{
-	margin-right:5px;
+	bottom:115px;
 }
 
-/* not clicked link*/
-.items:link {
-    color: #2d2d2d;
-	text-decoration: none;
-	background-color: none;
-}
-
-/* visited link */
-.items:visited {
-    color: #d64937;
-	text-decoration: underline;
-	background-color: none;
-}
-
-/* mouse over link */
-.items:hover {
-    color: #2d2d2d;
-	text-decoration: underline;
-	background-color: none;
-}
-
-/* selected link */
-.items:active {
-    color: #dcdcdc;
-	background-color: none;
-}
-
-#row1 {
-	background-color:#dcdcdc;
+/*------Text over the the form------*/
+#bigmac{
 	position:relative;
-	top:0px;
-	font-family: 'Ubuntu', sans-serif;
-	height:500px;
-	text-align: justify;
-	position:relative;
-	bottom:16px;
+	font-weight: lighter;
+	text-align: center;
+	max-height:90%;
 }
 
-#paragraph1{
-	margin-left: 10px;
-}
-#profile1{
-	position:absolute;
-	float:left;
-	width:120px;
-	height:110px;
-}
-#list_prof{
-	position:absolute;
-	float:left;
-	width:70px;
-	height:80px;
-}
-#list{
-	margin-left: -25px;
-	position:relative;
-	left:110px;
-}
-#row2 {
-	background-color:#f9f9f9;
-	font-family: 'Ubuntu', sans-serif;
-	height:300px;
-	text-align: justify;
-	position:relative;
-	bottom:32px;
+/*------Div containing the form------*/
+#diver{
+	margin-right:auto;
+    margin-left:auto;
+	width: 550px;
+	background-color: #f1f1f1;
 }
 
-#paragraph2{
-	margin-left: 20px;
-	position:relative;
-	left:110px;
+/*------Form to fill in------*/
+#former{
+	color: #484a4c;
+	padding:5%;
+	width: 500px;
+	background-color: #f1f1f1;
 }
 
-#footer {
-   	position:relative;
-	bottom:48px;
-    background-color:#333333;
-	font-family: 'Ubuntu', sans-serif;
-    height:40px;
-    color:#dedede;
-    clear:both;
-    text-align:center;
-	 	 
+/*------Div containing the form------*/
+.asking{
+	color:red;
 }
 
-#copyr{
-	position:relative;
-	top:11px;
+/*------Red asterisk which informs about a mandatory field------*/
+.imput{
+	float:right;
+	width:50%;
+	border-radius:3px;
+	border:1px solid #9B9B9B;
 }
 
-.links{
-	float:left;
-	font-family: 'Ubuntu', sans-serif;
-	position:relative;
-	bottom:11px;
+/*------Label containing the checkboxes with the cities where the user can look for jobs------*/
+#cities{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+/*------Label where the user specifies its sex (Radio button)------*/
+#sex{
+	float:right;
+}
+
+/*------Label where the user specifies if he/she is in a company (Radio button)------*/
+#kompany{
+	float:right;
+}
+
+/*------Label where the user specifies if he/she is in a company (Radio button)------*/
+#offers{
+	float:right;
+}
+
+/*------Label containing the checkbox which the user has to check in order to accept the user and privacy terms------*/
+#check{
 	font-size:75%;
-	margin-left:5px;
-
 }
 
-/* not clicked link*/
-.links:link {
-    color: #d64937;
-	text-decoration: none;
-	background-color: none;
+/*------Button with which the user can upload a profile pic------*/
+#inputphotillo{
+	float:right;
+	font-size:60%;
 }
 
-/* visited link */
-.links:visited {
-    color: #d64937;
+/*------Button to submit the form------*/
+#submitbutton{
+	font-size:75%;
+	float:right;
+}
+
+/*------Not clicked user and privacy terms link------*/
+.privacy:link{
+	color: #484a4c;
 	text-decoration: underline;
 	background-color: none;
 }
 
-/* mouse over link */
-.links:hover {
-    color: #d64937;
+/*------Visited user and privacy terms link------*/
+.privacy:visited {
+	color:#484a4c;
 	text-decoration: underline;
 	background-color: none;
 }
 
-/* selected link */
-.links:active {
-    color: #dcdcdc;
+/*------Hovered user and privacy terms link------*/
+.privacy:hover {
+	color:#484a4c;
+	text-decoration: underline;
 	background-color: none;
+}
+
+/*------Active user and privacy terms link------*/
+.privacy:active {
+	color:#484a4c;
+	background-color: none;
+}
+
+/*------Class of the warning divs of the form------*/
+.noti{
+	margin-top:10px;
+	margin-bottom:10px;
+	color:#ffffff;
+	background-color:#d64937;
+	padding:5px;
+}
+
+/*------Text explaining what fields are mandatory------*/
+#mininfo{
+	font-size:75%;
+	float:right;
+}
+
+/*------Footer of the webpage and div that pushes it if the height of the content of the webpage is larger than the screen resolution------*/
+#footer, #pushdownautomata {
+	height: 40px;
+}
+
+/*------Div that pushes it if the height of the content of the webpage is larger than the screen resolution------*/
+#pushdownautomata{
+	margin-top:30px;
+}
+
+/*------Footer of the webpage------*/
+#footer{
+    background-color:#333333;
+    color:#f1f1f1;
+	overflow: hidden;
 }
