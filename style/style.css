@@ -1,0 +1,359 @@
+
+/*
+Andrés Manglano Cañizares NIA:100303534
+Fayán Leonardo Pardo Ladino NIA:100303560
+*/
+
+#yin{
+	-webkit-animation: services 5s; /* Chrome, Safari, Opera */
+    animation: services 5s;
+    position: relative;
+	margin-top:100px;
+	margin-left:100px;
+	margin-right:100px;
+	float:left;
+	max-width:200px;
+	max-height:200px;
+	width:auto;
+	height:auto;
+}
+
+#yan{
+	-webkit-animation: services 5s; /* Chrome, Safari, Opera */
+    animation: services 5s;
+    position: relative;
+	margin-top:100px;
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	max-width:200px;
+	max-height:200px; 
+	width:auto;
+	height:auto;
+}
+
+#yonesnou{
+	-webkit-animation: services 5s; /* Chrome, Safari, Opera */
+    animation: services 5s;
+    position: relative;
+	margin-top:100px;
+	margin-left:100px;
+	margin-right:100px;
+	float:left;
+	max-width:200px;
+	max-height:200px;
+	width:auto;
+	height:auto;
+}
+#service1{
+position: absolute;
+margin-top: 315px;
+margin-left: 120px;
+-webkit-animation: services 5s; /* Chrome, Safari, Opera */
+    animation: services 5s;
+}
+#service2{
+position: absolute;
+margin-top: 315px;
+margin-left: 450px;
+-webkit-animation: services 5s; /* Chrome, Safari, Opera */
+    animation: services 5s;
+}
+#service3{
+position: absolute;
+margin-top: 315px;
+margin-left: 670px;
+-webkit-animation: services 5s; /* Chrome, Safari, Opera */
+    animation: services 5s;
+}
+#slogan1{
+position: absolute;
+margin-top: 415px;
+margin-left: 125px;
+-webkit-animation: services 5s; /* Chrome, Safari, Opera */
+    animation: services 5s;
+}
+#slogan2{
+position: absolute;
+margin-top: 415px;
+margin-left: 400px;
+-webkit-animation: services 5s; /* Chrome, Safari, Opera */
+    animation: services 5s;
+}
+#slogan3{
+position: absolute;
+margin-top: 415px;
+margin-left: 670px;
+-webkit-animation: services 5s; /* Chrome, Safari, Opera */
+    animation: services 5s;
+}
+#quicky{
+position:absolute;
+margin-top:20px;
+margin-left:400px;
+}
+#query{ 
+position:absolute;
+margin-top:150px;
+margin-left:180px;
+
+}
+#query2{
+position:absolute;
+margin-top:150px;
+margin-left:550px;
+
+}
+#search{
+position:absolute;
+margin-top:150px;
+margin-left:830px;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes services {
+	from{background:none; top:200px; opacity:0;}
+    to  {background:none; top:0px; opacity:1;}
+}
+
+/* Standard syntax */
+@keyframes services {
+	from{background:none; top:200px; opacity:0;}
+    to  {background:none; top:0px; opacity:1;}
+} 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes texty {
+	from{background:none; top:200px; opacity:0;}
+    to  {background:none; top:0px; opacity:1;}
+}
+
+/* Standard syntax */
+@keyframes texty {
+	from{background:none; top:200px; opacity:0;}
+    to  {background:none; top:0px; opacity:1;}
+} 
+
+html{
+	height:100%;
+}
+body{
+	min-width: 1080px;
+	margin-top:0;
+	margin:0;
+	padding:0;
+	height:100%;
+
+}
+
+#fellaini{
+	background-color:#333333;
+	height:65px;
+}
+
+#heading{
+	margin:0;
+	position:relative;
+	top:30px;
+	left:110px;
+	font-family: 'Ubuntu', cursive;
+	font-size:175%;
+	color:#dedede;
+}
+
+#nigga{
+	float:right;
+	position:relative;
+	bottom:20px;
+	width:auto;
+	right:8px;
+	font-size:80%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#lmayas{
+	float:right;
+	position:relative;
+	bottom:45px;
+	left:55px;
+	font-size:100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* not clicked link*/
+#lmayas:link {
+    color: #d64937;
+	text-decoration: none;
+	background-color: none;
+}
+
+/* visited link */
+#lmayas:visited {
+    color: #d64937;
+	text-decoration: underline;
+	background-color: none;
+}
+
+/* mouse over link */
+#lmayas:hover {
+    color: #d64937;
+	text-decoration: underline;
+	background-color: none;
+}
+
+/* selected link */
+#lmayas:active {
+    color: #dcdcdc;
+	background-color: none;
+}
+
+#logo{
+	position:absolute;
+	float:left;
+	width:110px;
+	height:110px;
+}
+
+#menu{
+	background-color:#d64937;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:115%;
+	height:35px;
+    float:inherit;
+    padding-top:10px;
+    padding-left:30px;
+	text-align:left;
+}
+
+#elements{
+	position:relative;
+	left:83px;
+}
+.items{
+	margin-right:5px;
+}
+
+/* not clicked link*/
+.items:link {
+    color: #2d2d2d;
+	text-decoration: none;
+	background-color: none;
+}
+
+/* visited link */
+.items:visited {
+    color: #d64937;
+	text-decoration: underline;
+	background-color: none;
+}
+
+/* mouse over link */
+.items:hover {
+    color: #2d2d2d;
+	text-decoration: underline;
+	background-color: none;
+}
+
+/* selected link */
+.items:active {
+    color: #dcdcdc;
+	background-color: none;
+}
+
+#row1 {
+	background-color:#dcdcdc;
+	position:relative;
+	top:0px;
+	font-family: 'Ubuntu', sans-serif;
+	height:500px;
+	text-align: justify;
+	position:relative;
+	bottom:16px;
+}
+
+#paragraph1{
+	margin-left: 10px;
+}
+#profile1{
+	position:absolute;
+	float:left;
+	width:120px;
+	height:110px;
+}
+#list_prof{
+	position:absolute;
+	float:left;
+	width:70px;
+	height:80px;
+}
+#list{
+	margin-left: -25px;
+	position:relative;
+	left:110px;
+}
+#row2 {
+	background-color:#f9f9f9;
+	font-family: 'Ubuntu', sans-serif;
+	height:300px;
+	text-align: justify;
+	position:relative;
+	bottom:32px;
+}
+
+#paragraph2{
+	margin-left: 20px;
+	position:relative;
+	left:110px;
+}
+
+#footer {
+   	position:relative;
+	bottom:48px;
+    background-color:#333333;
+	font-family: 'Ubuntu', sans-serif;
+    height:40px;
+    color:#dedede;
+    clear:both;
+    text-align:center;
+	 	 
+}
+
+#copyr{
+	position:relative;
+	top:11px;
+}
+
+.links{
+	float:left;
+	font-family: 'Ubuntu', sans-serif;
+	position:relative;
+	bottom:11px;
+	font-size:75%;
+	margin-left:5px;
+
+}
+
+/* not clicked link*/
+.links:link {
+    color: #d64937;
+	text-decoration: none;
+	background-color: none;
+}
+
+/* visited link */
+.links:visited {
+    color: #d64937;
+	text-decoration: underline;
+	background-color: none;
+}
+
+/* mouse over link */
+.links:hover {
+    color: #d64937;
+	text-decoration: underline;
+	background-color: none;
+}
+
+/* selected link */
+.links:active {
+    color: #dcdcdc;
+	background-color: none;
+}
